@@ -1,14 +1,11 @@
 package com.example.foroom.Pagematchers
 
 import android.view.View
-import androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA
-import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withHint
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import com.example.design_system.R
 import org.hamcrest.Matcher
-import org.hamcrest.Matchers
 import org.hamcrest.Matchers.allOf
 import org.hamcrest.Matchers.containsString
 
@@ -37,20 +34,3 @@ object LoginPageMatchers {
         withText("მომხმარებელი ვერ მოიძებნა")) }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -3,7 +3,6 @@ package com.example.foroom.Steps
 import com.example.foroom.Helper.isViewDisplayed
 import com.example.foroom.Helper.tap
 import com.example.foroom.Helper.typeText
-import com.example.foroom.Helper.waitForViewVisible
 import com.example.foroom.Pagematchers.LoginPageMatchers
 
 class LoginSteps {
