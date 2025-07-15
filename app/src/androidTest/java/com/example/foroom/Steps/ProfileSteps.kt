@@ -9,7 +9,7 @@ class ProfileSteps {
     {
         with(ProfilePageMatchers)
         {
-            homeNavigationButton.tap(1)
+            homeNavigationButton.tap()
         }
         return this
     }
@@ -24,7 +24,7 @@ class ProfileSteps {
     fun clickSignOutButton() : ProfileSteps{
         with(ProfilePageMatchers)
         {
-            signOutButton.tap(1)
+            signOutButton.tap()
         }
         return this
     }

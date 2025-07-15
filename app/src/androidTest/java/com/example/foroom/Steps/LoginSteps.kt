@@ -18,7 +18,7 @@ class LoginSteps {
     fun pressSignUpButton() : LoginSteps
     {
         with(LoginPageMatchers){
-            signUpButton.tap(1)
+            signUpButton.tap()
         }
         return this;
     }
@@ -35,7 +35,7 @@ class LoginSteps {
     {
         with(LoginPageMatchers)
         {
-            loginInButton.tap(1)
+            loginInButton.tap()
         }
         return this
     }

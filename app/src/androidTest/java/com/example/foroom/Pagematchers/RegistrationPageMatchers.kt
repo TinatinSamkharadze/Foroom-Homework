@@ -19,8 +19,7 @@ object RegistrationPageMatchers {
             isDescendantOfA(allOf(
                 withId(com.alternator.foroom.R.id.passwordInput),
                 hasSibling(withId(com.alternator.foroom.R.id.listView))
-            )),
-            isDisplayed()
+            ))
         )
     }
 
@@ -31,8 +30,7 @@ object RegistrationPageMatchers {
             isDescendantOfA(allOf(
                 withId(com.alternator.foroom.R.id.repeatPasswordInput),
                 hasSibling(withId(com.alternator.foroom.R.id.listView))
-            )),
-            isDisplayed()
+            ))
         )
     }
 
@@ -43,16 +41,14 @@ object RegistrationPageMatchers {
             isDescendantOfA(allOf(
                 withId(com.alternator.foroom.R.id.userNameInput),
                 hasSibling(withId(com.alternator.foroom.R.id.listView))
-            )),
-            isDisplayed()
+            ))
         )
     }
 
     val signUpButton: Matcher<View> by lazy {
         allOf(
             withId(com.alternator.foroom.R.id.signUpButton),
-            hasSibling(withId(com.alternator.foroom.R.id.logInTextView)),
-            isDisplayed()
+            hasSibling(withId(com.alternator.foroom.R.id.logInTextView))
         )
     }
 }

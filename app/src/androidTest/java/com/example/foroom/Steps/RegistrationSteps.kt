@@ -38,7 +38,7 @@ class RegistrationSteps {
     {
         with(RegistrationPageMatchers)
         {
-            signUpButton.tap(1)
+            signUpButton.tap()
         }
         return this
     }

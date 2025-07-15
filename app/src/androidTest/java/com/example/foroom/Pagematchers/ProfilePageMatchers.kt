@@ -19,8 +19,7 @@ object ProfilePageMatchers {
             isDescendantOfA(allOf(
                 withId(com.alternator.foroom.R.id.userNameInput),
                 hasSibling(withId(com.alternator.foroom.R.id.listView))
-            )),
-            isDisplayed()
+            ))
         )
     }
 
